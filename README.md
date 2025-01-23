@@ -1,4 +1,4 @@
-# Solução Cozinha
+# Checkout Pro Mercado Pago - SDK
 
 Este projeto integra a API do Mercado Pago para a criação de preferências de pagamento utilizando o SDK do Mercado Pago. Com isso, é possível criar um link para o Checkout Pro sem a necessidade de lidar diretamente com os dados do cliente para integrar o pagamento em sua aplicação. Essa solução também pode ser usada em aplicações Spring Boot.
 
