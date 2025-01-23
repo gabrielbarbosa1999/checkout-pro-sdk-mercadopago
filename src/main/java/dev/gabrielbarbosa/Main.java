@@ -12,16 +12,16 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) throws MPException, MPApiException {
 
-        MercadoPagoConfig.setAccessToken("ACCESS_TOKEN"); // ACCESS TOKEN MERCADO PAGO
+        MercadoPagoConfig.setAccessToken("ACCESS_TOKEN");
 
         PreferenceItemRequest item = PreferenceItemRequest.builder()
-                .title("TITULO DA VENDA") // TITULO DA VENDA
+                .title("TITULO DA VENDA")
                 .quantity(1)
-                .unitPrice(new BigDecimal("49.90")) // VALOR
+                .unitPrice(new BigDecimal("49.90"))
                 .build();
 
         PreferencePayerRequest payer = PreferencePayerRequest.builder()
-                .email("EMAIL@GMAIL.COM") // EMAIL DO CLIENTE
+                .email("EMAIL@GMAIL.COM")
                 .build();
 
         PreferenceRequest preferenceRequest = PreferenceRequest
